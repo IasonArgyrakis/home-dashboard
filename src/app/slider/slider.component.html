@@ -1,0 +1,7 @@
+<div *ngFor="let light of Lights" >
+    <mat-slide-toggle
+    [checked]="light.state"
+    (change)="setLightState(light,$event);">
+    <span class="slider">{{light._name}}</span>
+    </mat-slide-toggle>
+</div>

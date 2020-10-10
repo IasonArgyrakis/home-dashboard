@@ -1,0 +1,5 @@
+div{padding: 8%;}
+.dash-gradient{
+    background: rgb(200,0,8);
+background: linear-gradient(122deg, rgba(200,0,8,1) 0%, rgba(185,81,189,1) 58%, rgba(72,36,255,1) 91%);}
+.toolbar-text,.toolbar-icon{color: white;}
