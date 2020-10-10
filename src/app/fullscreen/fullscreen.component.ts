@@ -64,4 +64,5 @@ export class FullscreenComponent implements OnInit, OnDestroy {
             this.document.msExitFullscreen();
           }
         }
+        toggleFullscreen(){(this.isFullScreen)? this.openFullscreen():this.closeFullscreen()}
   }

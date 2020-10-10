@@ -15,6 +15,7 @@ import {MatIconModule} from "@angular/material/icon"
 import {MatButtonModule} from "@angular/material/button"
 import { MatSlideToggleModule}  from '@angular/material/slide-toggle';
 import { FullscreenComponent } from './fullscreen/fullscreen.component';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 
 
@@ -36,6 +37,7 @@ import { FullscreenComponent } from './fullscreen/fullscreen.component';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
+    MatGridListModule
     
 
     
@@ -44,6 +46,7 @@ import { FullscreenComponent } from './fullscreen/fullscreen.component';
   providers: [
     LightService
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  //exports:[MatGridListModule]
 })
 export class AppModule {  }

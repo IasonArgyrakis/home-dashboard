@@ -5,11 +5,26 @@
    </button>
    <span class="toolbar-text">House</span>
    <span class="example-spacer"></span>
-   <app-fullscreen>
-     
-   </app-fullscreen>
+   <app-fullscreen inline="true"></app-fullscreen>
    
  </mat-toolbar>
 <div>
-    <app-slider></app-slider>
+  <mat-grid-list cols="3" rowHeight="6:5" [gutterSize]="'3%'">
+
+  
+  <mat-grid-tile 
+   [colspan] = "1"
+   [rowspan] = "2">
+   <app-slider></app-slider>
+   </mat-grid-tile>
+   <mat-grid-tile 
+   [colspan] = "1"
+   [rowspan] = "2"> <app-slider></app-slider>
+   </mat-grid-tile>
+   <mat-grid-tile 
+   [colspan] = "1"
+   [rowspan] = "2"> <app-slider></app-slider>
+   </mat-grid-tile>
+  </mat-grid-list>
+    
 </div>

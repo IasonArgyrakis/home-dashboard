@@ -10,7 +10,7 @@ import { Injectable } from '@angular/core';
 })
 export class LightService {
   
-  theList=[new Light("192.168.1.61","json overhead")]
+  theList=[new Light("192.168.1.61","json overhead"),new Light("192.168.1.61","json overhead"),new Light("192.168.1.61","json overhead")]
   
   constructor(private httpCl: HttpClient) {  }
   
