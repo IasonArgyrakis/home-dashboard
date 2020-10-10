@@ -1,5 +1,8 @@
 div{padding: 8%;}
-.dash-gradient{
-    background: rgb(200,0,8);
-background: linear-gradient(122deg, rgba(200,0,8,1) 0%, rgba(185,81,189,1) 58%, rgba(72,36,255,1) 91%);}
-.toolbar-text,.toolbar-icon{color: white;}
+.dash-gradient{background: rgb(255,122,3);
+    background: linear-gradient(122deg, rgba(255,122,3,1) 0%, rgba(185,81,189,1) 58%, rgba(72,36,255,1) 91%);
+}
+.toolbar-text,.toolbar-icon{color: white; font-size: 22px; }
+.mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
+    background-color: rgb(253 ,121 ,9);
+}

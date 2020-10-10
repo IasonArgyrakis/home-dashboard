@@ -14,6 +14,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from "@angular/material/icon"
 import {MatButtonModule} from "@angular/material/button"
 import { MatSlideToggleModule}  from '@angular/material/slide-toggle';
+import { FullscreenComponent } from './fullscreen/fullscreen.component';
 
 
 
@@ -22,6 +23,7 @@ import { MatSlideToggleModule}  from '@angular/material/slide-toggle';
     AppComponent,
     SliderComponent,
     MainComponent,
+    FullscreenComponent,
     
      
   ],

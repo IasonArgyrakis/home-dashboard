@@ -28,8 +28,8 @@ export class LightService {
     this.httpCl.get(urlcmd).subscribe()
     }
 
-   toBoolean(value)
-   {if(value=="ON"){return true}
+   toBoolean(value){
+     if(value=="ON"){return true}
     else if(value=="OFF"){return false}
   }
 }
